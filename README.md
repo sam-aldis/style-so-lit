@@ -54,5 +54,8 @@ have a few ideas in mind!
 
 - live binding/2way binding with psudo selectors
 - Scoped css
+    - local (area around the current element is included)
+    - global (name says it all DOM wide - shadowDOM not included)
+    - element - if your building a custom element then just that element is included
 - Shadow dom for manipulations and calculations.
 

@@ -2,7 +2,7 @@
 //TODO: Implement a addToShadowDom() function? Animation, variable 2-way binding.
 //TODO: scope = ShadowJS (Create a shadow and seperated version of javascript DOM 
 // that can be addressed to the calling function for seperation/non-collision)
-// TODO: ...   THIS CSS IS LIT🔥🔥🚀... 
+// TODO: ...  put some water on this machine cause... THIS CSS IS LIT🔥🔥🚀... 
 var env;
 (function (env) {
     env[env["DEV"] = 0] = "DEV";

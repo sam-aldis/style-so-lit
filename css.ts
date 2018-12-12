@@ -2,7 +2,7 @@
 //TODO: scope = ShadowJS (Create a shadow and seperated version of javascript DOM 
 // that can be addressed to the calling function for seperation/non-collision)
 
-// TODO: ...   THIS CSS IS LIT🔥🔥🚀... 
+// TODO: ...  put some water on this machine cause... THIS CSS IS LIT🔥🔥🚀... 
 enum env {
     DEV = 0,
     DIST = 1
@@ -14,13 +14,23 @@ enum env {
 const ENV = env.DEV
 //=======================================================================================//
 
-// Enum... duh. not implemented yet but will be used to scope the css.
+/*
+ * @enum Scope
+ * @description for selection and matching of scopes, 
+ * TODO: implement!
+ */
 enum Scope {
     Local = 'local',
     Global = 'global',
     Element = 'element'
 }
-
+/**
+ * Comment
+ *
+ * @class j2css (javascript to css)
+ * @description used to create the type j2css for the typescript version allowing  use ts/js
+ * @type Object -> Custom Map<String,String> 
+ */
 class j2css{
     constructor(private K : string, private V : string) {
         this.K =  K;
